@@ -1,0 +1,31 @@
+<h2><%= @post.title %></h2>
+<h2><%= @post.content %></h2>
+<h2><%= link_to @post.blogger.name, @post.blogger %></h2>
+<h2><%= link_to @post.destination.name, @post.destination%></h2>
+
+<h2><%= @post.likes %></h2>
+<%= button_to "Like", add_likes_path, method: "patch"%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
